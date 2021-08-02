@@ -3,10 +3,17 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 name = "pypi"
 
+[dev-packages]
+pre-commit = "*"
+black = "*"
+pylint = "*"
+pipenv-to-requirements = "*"
+
 [packages]
 django = "*"
 
-[dev-packages]
-
 [requires]
 python_version = "3.7"
+
+[pipenv]
+allow_prereleases = true
