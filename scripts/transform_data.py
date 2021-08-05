@@ -1,3 +1,4 @@
+"""Prepares the data from a Django's loaddata."""
 import os
 import csv
 import json
