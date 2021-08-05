@@ -131,3 +131,5 @@ dmypy.json
 # Migrations folder
 /app/sars/migrations/*
 !__init__.py
+
+app/sars/fixtures/
