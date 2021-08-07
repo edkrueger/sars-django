@@ -133,3 +133,5 @@ dmypy.json
 !__init__.py
 
 app/sars/fixtures/
+
+Pipfile.lock
