@@ -12,6 +12,7 @@ pipenv-to-requirements = "*"
 [packages]
 django = "*"
 psycopg2-binary = "*"
+django-rest-swagger = "*"
 
 [requires]
 python_version = "3.9"

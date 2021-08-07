@@ -5,6 +5,8 @@ from django.shortcuts import render
 from django.http import HttpResponse
 from django.core import serializers
 
+# from rest_framework_swagger.views import get_swagger_view
+
 from .models import Record
 
 
